@@ -1,0 +1,35 @@
+//shorttricks for Arrays in java
+import java.util.*;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    String s = "Hello";
+    //      char [] c=s.split(" ");  lesson--.split method is for string 
+    char g[] = s.toCharArray ();
+
+      System.out.println (" ");
+    for (char j:g)
+      {
+	System.out.println (j + " ");
+
+      }
+      
+      
+      
+    //Arrays.sort(array ka name)
+    double[] a = { 1.4, 4.6, 8.9 };
+    Arrays.sort (a);
+          
+          
+    //Arrays.toString(array ka name)--  1 line me array print ho jayega....
+   
+    System.out.println (Arrays.toString (a));
+    
+   //alternate way to print 
+  for (double d:a)
+      {
+	System.out.println (d);
+      }
+  }
+}
